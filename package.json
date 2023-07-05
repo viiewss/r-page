@@ -1,0 +1,24 @@
+{
+  "name": "r-page",
+  "version": "1.0.0",
+  "description": "resume page",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server --open",
+    "build": "NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viiewss/r-page.git"
+  },
+  "author": "Mahir Mohtasin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viiewss/r-page/issues"
+  },
+  "homepage": "https://github.com/viiewss/r-page#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-scroll": "^1.8.9"
+  }
+}
